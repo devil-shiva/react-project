@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: transparent;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li{
+    margin: 1em;
+    cursor: pointer;
+    
+}
+.navItem{
+    text-decoration: none;
+    color: #08D9D6;
+    font-size: larger;
+    font-weight: bolder;
+}
+.logo{
+    margin: auto;
+    font-size: x-large;
+    color: #EAEAEA;
+
+}
